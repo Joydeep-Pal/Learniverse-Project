@@ -21,6 +21,7 @@ $(document).ready(function() {
         
         if (username === 'user' && password === '1234') {
             // Success animation
+            alert("ok");
             const btn = $(this).find('.auth-btn');
             btn.html('<i class="fas fa-check"></i> Success!');
             btn.css('background', '#007bff');

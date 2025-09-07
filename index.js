@@ -19,7 +19,7 @@ $(document).ready(function() {
         const username = $('#loginUsername').val().trim();
         const password = $('#loginPassword').val().trim();
         
-        if (username === 'user' && password === '1234567890') {
+        if (username === 'user' && password === '1234') {
             // Success animation
             const btn = $(this).find('.auth-btn');
             btn.html('<i class="fas fa-check"></i> Success!');
